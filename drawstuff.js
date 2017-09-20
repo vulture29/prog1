@@ -556,7 +556,6 @@ function drawInputEllipsoidsUsingRayCasting(context) {
 
                         // specular
                         var v = Vector.normalize(Vector.subtract(eye, objectPos));
-                        // var v = new Vector(0, 0, -1);
                         var h = Vector.normalize(Vector.add(v,l));
                         var q = inputEllipsoids[displayObject].n;
                         var NdotH = Math.pow(Math.max(0,Vector.dot(n, h)),q);
