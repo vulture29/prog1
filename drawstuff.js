@@ -502,7 +502,7 @@ function drawInputEllipsoidsUsingRayCasting(context) {
                 }
 
 
-                // // display: part 1
+                // display: part 1
                 // if(displayObject < nl) {
                 //     var fillColor = new Color(inputEllipsoids[displayObject].diffuse[0]*255,
                 //                             inputEllipsoids[displayObject].diffuse[1]*255,
